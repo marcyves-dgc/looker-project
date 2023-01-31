@@ -37,4 +37,9 @@ view: open_store {
     type: count
     drill_fields: []
   }
+
+  measure: nb_countries {
+    type:  count_distinct
+    sql: ${country} ;;
+  }
 }
