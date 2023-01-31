@@ -40,6 +40,6 @@ view: open_store {
 
   measure: nb_countries {
     type:  count_distinct
-    sql: ${country} ;;
+    sql: ${TABLE}.country ;;
   }
 }
