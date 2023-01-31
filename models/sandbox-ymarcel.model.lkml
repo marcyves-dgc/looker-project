@@ -42,3 +42,5 @@ explore: cash_desk_transaction {
 }
 
 explore: best_product_sale {}
+
+explore: location {}
