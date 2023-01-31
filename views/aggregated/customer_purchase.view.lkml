@@ -52,4 +52,9 @@ view: customer_purchase {
     type: count
     drill_fields: []
   }
+
+  measure: average_nb_baskets {
+    type: average
+    sql: ${n_basket} ;;
+  }
 }
