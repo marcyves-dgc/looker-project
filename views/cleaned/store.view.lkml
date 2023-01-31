@@ -12,6 +12,12 @@ view: store {
     sql: ${TABLE}.coordinate ;;
   }
 
+  dimension: localisation {
+    type:  location
+    sql_latitude: ${TABLE}.coordinate ;;
+    sql_longitude: ${TABLE}.coordinate ;;
+  }
+
   dimension: country {
     type: string
     map_layer_name: countries
